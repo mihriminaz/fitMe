@@ -1,82 +1,93 @@
 {"shoesArray": [
-            {
-                    "brand": "Zara",
-                    "image": "shoes1",
-                    "price": 37.25,
-                    "size": "37",
-                    "available": true,
-                    "isBought": true
-                    },
-               {
-               "brand": "Asos",
-               "image": "shoes2",
-               "price": 200,
-               "size": "UK 5.5",
-               "available": true,
-               "isBought": false
-               },  {
-               "brand": "Adidas",
-               "image": "shoes3",
-               "price": 87.5,
-               "size": "38",
-               "available": true,
-               "isBought": false
-               },  {
-               "brand": "Zara",
-               "image": "shoes4",
-               "price": 37.25,
-               "size": "37",
-               "available": true,
-               "isBought": false
-               },  {
-               "brand": "Asos",
-               "image": "shoes5",
-               "price": 120,
-               "size": "US 5",
-               "available": true,
-               "isBought": true
-               },  {
-               "brand": "Zara",
-               "image": "shoes6",
-               "price": 37.25,
-               "size": "37",
-               "available": true,
-               "isBought": true
-               },  {
-               "brand": "H&M",
-               "image": "shoes7",
-               "price": 37.25,
-               "size": "37",
-               "available": true,
-               "isBought": true
-               },  {
-               "brand": "Nike",
-               "image": "shoes8",
-               "price": 37.25,
-               "size": "38",
-               "available": true,
-               "isBought": false
-               },  {
-               "brand": "Vero Moda",
-               "image": "shoes9",
-               "price": 37.25,
-               "size": "36.5",
-               "available": true,
-               "isBought": false
-               },  {
-               "brand": "Louboutin",
-               "image": "shoes10",
-               "price": 500,
-               "size": "37",
-               "available": true,
-               "isBought": true
-               },  {
-               "brand": "Zara",
-               "image": "shoes11",
-               "price": 37.25,
-               "size": "37",
-               "available": true,
-               "isBought": true
-                    }
-                    ]
+                {
+                "brand": "Zara",
+                "image": "shoes1",
+                "price": 37.25,
+                "size": "37",
+                "available": true,
+                "isBought": true,
+                "isFit": false
+                },
+                {
+                "brand": "Asos",
+                "image": "shoes2",
+                "price": 200,
+                "size": "UK 5.5",
+                "available": true,
+                "isBought": false,
+                "isFit": false
+                },  {
+                "brand": "Adidas",
+                "image": "shoes3",
+                "price": 87.5,
+                "size": "38",
+                "available": false,
+                "isBought": true,
+                "isFit": true
+                },  {
+                "brand": "Zara",
+                "image": "shoes4",
+                "price": 37.25,
+                "size": "37",
+                "available": true,
+                "isBought": false,
+                "isFit": false
+                },  {
+                "brand": "Asos",
+                "image": "shoes5",
+                "price": 120,
+                "size": "US 5",
+                "available": true,
+                "isBought": true,
+                "isFit": true
+                },  {
+                "brand": "Zara",
+                "image": "shoes6",
+                "price": 37.25,
+                "size": "37",
+                "available": true,
+                "isBought": true,
+                "isFit": false
+                },  {
+                "brand": "H&M",
+                "image": "shoes7",
+                "price": 37.25,
+                "size": "37",
+                "available": true,
+                "isBought": true,
+                "isFit": true
+                },  {
+                "brand": "Nike",
+                "image": "shoes8",
+                "price": 37.25,
+                "size": "38",
+                "available": false,
+                "isBought": false,
+                "isFit": false
+                },  {
+                "brand": "Vero Moda",
+                "image": "shoes9",
+                "price": 37.25,
+                "size": "36.5",
+                "available": true,
+                "isBought": false,
+                "isFit": false
+                },  {
+                "brand": "Louboutin",
+                "image": "shoes10",
+                "price": 500,
+                "size": "37",
+                "available": true,
+                "isBought": true,
+                "isFit": false
+                },  {
+                "brand": "Zara",
+                "image": "shoes11",
+                "price": 37.25,
+                "size": "37",
+                "available": false,
+                "isBought": true,
+                "isFit": true
+                }
+                ]
 }

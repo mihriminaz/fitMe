@@ -15,14 +15,16 @@ class ShoesObject : NSObject {
     var size: String?
     var available: Bool!
     var isBought: Bool!
+    var isFit: Bool!
     
-    init(brand: String, image: String, price: Double, size: String, available: Bool, isBought: Bool) {
+    init(brand: String, image: String, price: Double, size: String, available: Bool, isBought: Bool, isFit: Bool) {
         self.brand = brand
         self.image = image
         self.price = price
         self.size = size
         self.available = available
         self.isBought = isBought
+        self.isFit = isFit
         
         super.init()
     }
@@ -35,7 +37,8 @@ class ShoesObject : NSObject {
         let size = json["size"]?.string
         let available = json["available"]?.bool
         let isBought = json["isBought"]?.bool
+        let isFit = json["isFit"]?.bool
         
-        return ShoesObject(brand: brand!, image: image!, price: price!, size: size!, available: available!, isBought: isBought!)
+        return ShoesObject(brand: brand!, image: image!, price: price!, size: size!, available: available!, isBought: isBought!, isFit: isFit!)
     }
 }
